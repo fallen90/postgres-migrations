@@ -1,5 +1,5 @@
 {
-  "name": "postgres-migrations",
+  "name": "@fallen90/postgres-migrations",
   "version": "5.3.0",
   "description": "Stack Overflow style database migrations for PostgreSQL",
   "main": "dist/index.js",
