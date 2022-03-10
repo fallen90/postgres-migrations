@@ -1,5 +1,5 @@
 {
-  "name": "@fallen90/postgres-migrations",
+  "name": "slytherin90/postgres-migrations",
   "version": "5.3.0",
   "description": "Stack Overflow style database migrations for PostgreSQL",
   "main": "dist/index.js",
@@ -17,7 +17,7 @@
     "database",
     "db"
   ],
-  "homepage": "https://github.com/thomwright/postgres-migrations#readme",
+  "homepage": "http  "homepage": "https://github.com/thomwright/postgres-migrations#readme",
   "license": "MIT",
   "repository": {
     "type": "git",
@@ -35,7 +35,7 @@
     "check-formatting": "./node_modules/.bin/prettier '**/*.ts' --list-different",
     "fix-formatting": "./node_modules/.bin/prettier '**/*.ts' --write",
     "lint": "npm run tslint && npm run check-formatting",
-    "tslint": "tslint 'src/**/*.ts' --type-check --project tsconfig.json --format verbose",
+-type-check --project tsconfig.json --format verbose",
     "test-integration": "ava --config ava.config.integration.cjs",
     "test-unit": "ava --config ava.config.unit.cjs",
     "test": "npm run test-unit && npm run lint && npm run test-integration",
