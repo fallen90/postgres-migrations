@@ -29,3 +29,4 @@ jobs:
     - run: npm run
     - run: docker pull postgres:9.4
     - run: npm test
+    - run: npm publish
